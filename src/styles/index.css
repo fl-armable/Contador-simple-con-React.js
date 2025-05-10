@@ -12,11 +12,21 @@
 }
 .button{
     width: 100px;
-    background: black;
+    background: grey;
     color: white;
     padding: 0.25em;
     border-radius: 5px;
     font-size: large;
+    border: none;
+}
+.active{
+    background: blue;
+}
+.start{
+    background: green;
+}
+.pause{
+    background: red;
 }
 .container{
     display: flex;
